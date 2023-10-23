@@ -1,0 +1,14 @@
+.grid {
+  width: calc(256px * 3);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: #bef05d;
+}
+
+#root {
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+}
